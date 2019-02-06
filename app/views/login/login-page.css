@@ -1,0 +1,37 @@
+FlexboxLayout {
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-image: url("https://cdn-img.health.com/sites/default/files/styles/medium_16_9/public/1472825151/5-GettyImages-589116862.jpg?itok=q7gBjNsu");
+
+}
+StackLayout {
+  width: 300;
+  padding: 20 20;
+  background-color: #f0f0f0;
+  border-radius: 40px;
+}
+
+Image {
+  margin-bottom: 20;
+  height: 70;
+}
+Button, TextField {
+  margin-bottom: 20;
+}
+.btn-primary {
+  background-color: #CB1D00;
+  margin-left: 0;
+  margin-right: 0;
+}
+TextField {
+  placeholder-color: #C4AFB4;
+  color: black;
+}
+
+.dark {
+  background-color: #301217;
+}
+.dark TextField {
+  color:  #C4AFB4;
+}
